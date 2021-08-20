@@ -1,0 +1,352 @@
+.background h2{
+    margin-top: 14rem;
+}
+.reach{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.reach h2{
+    color: #3a3a3a;
+    font-size: 2.2rem;
+}
+.reach p{
+    color: #6b6363;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+}
+form{
+    margin-top: 2rem;
+}
+form #name, #email{
+    width: 48.2rem;
+    height: 4.5rem;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    border: 1px solid #3a3a3a;
+    background: #ececec;
+    outline: none;
+} 
+
+form #message{
+    border-radius: 20px;
+    border: 1px solid #3a3a3a;
+    background: #ececec;
+    outline: none;
+    resize: none;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3a3a3a;
+    font-size: 1.5rem;
+}
+form input::placeholder, textarea::placeholder{
+    font-size: 25px;
+    color: #6b6363;
+    
+}
+form input[type="text"]{    
+    font-size:1.5rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3a3a3a;
+    padding-left: 3rem;
+}
+form input[type="email"]{    
+    font-size:1.5rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3a3a3a;
+    padding-left: 3rem;
+}
+
+form button{
+    margin-top: 3rem;
+    width: 16rem;
+    height: 5rem;
+    color: #fdfdfd;
+    background: #3a3a3a;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    margin-left: 18rem;
+}
+form button:hover{
+    width: 18rem;
+    margin-left: 17.5rem;
+}
+.customer-care{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.customer-care h2{
+    color: #3a3a3a;
+    font-size: 2.2rem;
+}
+.customer-care p{
+    color: #6b6363;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+}
+.customer-care .rep{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+.rep .rep-text{
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.rep-text h4{
+    font-size: 25px;
+    color: #3a3a3a;
+}
+.rep-text p:first-of-type{
+    font-size: 19px;
+    color: #6b6363;
+}
+.rep-text p:last-of-type{
+    color: blue;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+}
+.footer5{
+    margin-top: 3rem;
+}
+
+.footer5 a{
+    background: #fdfdfd;
+    width: 75%;
+    height: 4rem;
+    border-radius: 15px;
+    margin-top: 2rem; 
+}
+.footer5 a:hover{
+    width: 85%;
+    margin-left: -1rem;
+}
+.footer5 a img{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+.footer5 a span{
+    position: relative;
+    color: #3a3a3a;
+    font-weight: 600;
+    margin-left: 1.5rem;
+    bottom: 1.2rem;
+}
+@media screen and (max-width:1440px) {
+    .background h2{
+        margin-top:16rem;
+        margin-left: 7rem;
+    }
+    form #message{
+        width: 48.2rem;
+    }
+}
+@media screen and (max-width:800px) {
+    .background h2{
+        margin-top: 9rem !important;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        text-align: start;
+        margin-left: 2rem !important;
+    }
+    form #name, #email{
+        width: 45rem;
+        height: 4rem;
+        
+        
+    } 
+    form #message{
+        width: 45rem;
+        
+    }
+    form button{
+        margin-top: 3rem;
+        width: 16rem;
+        height: 5rem;
+        font-size: 1.7rem;
+        margin-left: 15rem;
+    }
+    form button:hover{
+        width: 18rem;
+        margin-left: 13.5rem;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100vw;
+    }
+    .footer5{
+        margin-top: 3rem;
+    }
+    
+    .footer5 a{
+        background: #fdfdfd;
+        width: 70%;
+        height: 3.5rem;
+        margin-top: 2rem; 
+    }
+    .footer5 a:hover{
+        width: 80%;
+        margin-left: -1rem;
+    }
+    .footer5 a img{
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-left: 1rem;
+        margin-top: 0.3rem;
+    }
+    .footer5 a span{
+        
+        margin-left: 1rem;
+        bottom: 1rem;
+    }
+}
+@media screen and (max-width:498px) {
+    
+    header{
+        position: sticky;
+    }
+    .background h2{
+        position: absolute;
+        margin-top: 4rem !important;
+        width: 200px;
+        left: 5rem!important;
+    }
+    .reach h2{
+        font-size: 1.8rem;
+    }
+    .reach p{
+        font-size: 1rem;
+        padding-left: 20px;
+    }
+    .reach form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 1rem;
+        width: 100vw !important;
+        
+    }
+    form #name, #email{
+        width: 20rem !important;
+        height: 3rem ;
+        left: 0;
+        
+    } 
+    form #message{
+        width: 20rem !important;
+        border-radius: 20px;
+        padding-left: 2rem;
+        font-size: 1rem;
+    }
+    form button{
+        margin-left: -1rem !important;
+        width: 10rem !important;
+        height: 3rem !important;
+        font-size: 1rem !important;
+    }
+    form button:hover{
+        width: 12rem;
+        margin-left: -2rem;
+    }
+    form input::placeholder, textarea::placeholder{
+        font-size: 20px;
+        
+        
+    }
+    form input[type="text"]{    
+        font-size:1rem;
+        padding-left: 2rem;
+    }
+    form input[type="email"]{    
+        font-size:1rem;
+        padding-left: 2rem;
+    }
+    .customer-care h2{
+        font-size: 1.8rem;
+    }
+    .customer-care p{
+        font-size: 1rem;
+        margin-left: 10px !important;
+        text-align: center !important;
+    }
+    .customer-care .rep{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    .customer-care .rep-text{
+        display: flex;
+        justify-content: center;
+        text-align: start !important;
+        margin-top: 1rem;
+        margin-left: 0 !important;
+    }
+    .rep-text h4{
+        font-size: 20px;
+
+    }
+    .rep-text p:first-of-type{
+        font-size: 15px;
+        margin-left: 0 !important;
+        
+    }
+    .rep-text p:last-of-type{
+        margin-left: 0 !important;
+        font-size: 15px;
+        margin-left: -1rem;
+    }
+    .rep .rep-img img{
+        width: 6rem;
+    }
+    
+   footer{
+       display: flex;
+       justify-content: center;
+       flex-direction: column !important;
+   }
+   .footer5 a{
+        width: 75%;
+        height: 3rem;
+        margin-left: 2.5rem; 
+    }
+    .footer5 a:hover{
+        width: 85%;
+        margin-left: 2.2rem !important;
+    }
+    .footer5 a img{
+        width: 2rem;
+        height: 2rem;
+        margin-left: 1rem;
+        margin-top: 0.5rem;
+    }
+    .footer5 a span{
+        margin-left: 1rem;
+        bottom: 0.7rem;
+    
+    }
+}

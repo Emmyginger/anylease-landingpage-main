@@ -1,0 +1,170 @@
+body{
+    z-index: -1;
+    overflow-x: hidden;
+}
+.mission, .vision{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.mission h2, .vision h2{
+    color: #3a3a3a;
+    font-size: 2.2rem;
+}
+.mission p, .vision p{
+    color: #6b6363;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.team{
+    margin-top: 8rem;
+    text-align: center;
+}
+.team h2:first-of-type{
+ font-size: 2.2rem;
+}
+.team h2{
+    color: #3a3a3a;
+    font-size: 1,6rem;
+    margin-top: 3rem;
+}
+.team p{
+    color: #6b6363;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.team-images .img1{
+    position: absolute;
+    top: 90rem;
+    left: 3rem;
+    
+}
+.team-images .img2{
+    position: absolute;
+    top: 90rem;
+    right: 3rem;
+}
+.team-images .img3{
+    position: absolute;
+    top: 115rem;
+    left: 3rem;
+}
+.team-images .img4{
+    position: absolute;
+    top: 115rem;
+    right: 3rem;
+}
+.location{
+    margin-top: 4rem;
+}
+.location h2{
+    color: #3a3a3a;
+    font-size: 2.2rem;
+    text-align: center;
+}
+iframe{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    width: 100vw;
+    height: 30rem;
+    overflow-x: hidden;
+    margin-right: rem;
+}
+@media screen and (max-width:800px) {
+    header{
+        position: sticky !important;
+    }
+    .background h2{
+        margin-top: 8rem;
+    }
+    .mission h2, .vision h2{
+        font-size: 2rem;
+    }
+    .mission p, .vision p{
+        font-size: 1rem;
+    }
+    .team h2:first-of-type{
+        font-size: 2rem;
+    }
+    .team h2{
+        font-size: 1.2rem;
+    }
+    
+    .team-images img{
+        width: 7rem;
+    }
+    .team-images .img1{
+        top: 70rem;
+        left: 2rem;
+        
+    }
+    .team-images .img2{
+        position: absolute;
+        top: 70rem;
+        right: 2rem;
+    }
+    .team-images .img3{
+        position: absolute;
+        top: 95rem;
+        left: 2rem;
+    }
+    .team-images .img4{
+        position: absolute;
+        top: 95rem;
+        right: 2rem;
+    }
+    footer{
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width:498px) {
+    
+    header{
+        position: sticky !important;
+    }
+    .background h2{
+        margin-top: 6rem;
+        margin-left: 7rem !important;
+        width: 60%;
+        left: 0 !important;
+        
+    }
+    .mission, .vision{
+        padding-left: 1rem;
+    }
+    .mission h2, .vision h2{
+        font-size: 1.5rem;
+    }
+    .mission p, .vision p{
+        font-size: 1rem;
+    }
+    .team h2:first-of-type{
+        font-size: 1.5rem;
+    }
+    .team h2{
+        font-size: 1.2rem;
+    }
+    .team p{
+        font-size: 1rem;
+    }
+    .team img{
+        display: none;
+    }
+    .location h2{
+        font-size: 1.5rem;
+    }
+    .location .mapouter{
+        width: 100vw;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
